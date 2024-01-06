@@ -1,5 +1,64 @@
-h1{
-    color: red;
-    background-color: aquamarine;
-    text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&family=Merriweather&family=Oswald:wght@400;500&family=Playfair+Display&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Hedvig Letters Serif', serif;
 }
+
+.first{
+    background-image: url(../images/b&b\ cow.webp);
+    background-size: cover;
+    background-position: bottom center;
+    height: 950px;
+}
+
+.first h1{
+    color: azure;
+    font-size: 80px;
+    text-align: center;
+    font-weight: bold;
+    /* padding-top: 10px; */
+    font-family: cursive;
+    word-spacing: 20px;
+    letter-spacing: 10px;
+}
+
+.article{
+    /*margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;*/
+    width: 80%;
+    margin: 60px auto;
+    background-color: aquamarine;
+    padding: 40px;
+    border-width: 10px;
+    border-color: yellow;
+    border-style: solid;
+}
+
+.article h2{
+    text-align: center;
+    font-size: 40px;
+
+    border-style: solid;
+    border-width: 3px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-color: yellowgreen;
+    padding-bottom: 30px;
+    margin-bottom: 60px;
+}
+
+.article p{
+    font-size: 20px;
+    line-height: 2em;
+}
+
+.article p .milk{
+    font-size: 2em;
+    background-color: yellow;
+    /* display: inline-block; */
+    width: 500px;
